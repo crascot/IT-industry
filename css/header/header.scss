@@ -1,3 +1,5 @@
+@import "../variables";
+
 .header {
     background: url(../../image/bg-header.png);
     background-repeat: no-repeat;
@@ -21,14 +23,14 @@
     margin: 0 32px;
 
     .nav__button {
-        color: #ffffff;
+        color: $white;
         font-size: 16px;
     }
 }
 .nav__button:hover {
     border: 0 none none;
     border-radius: 5%;
-    background-color: #ffffff;
+    background-color: $white;
     color: #323232;
     transition: border 0.4s;
     transition: background-color 0.4s;
@@ -41,7 +43,7 @@
     height: 800px;
     margin: 0 auto;
     text-align: center;
-    color: #ffffff;
+    color: $white;
 
     .face__block {
         position: relative;
@@ -60,9 +62,7 @@
         line-height: 64px;
     }
     button {
-        width: 200px;
-        height: 45px;
-        border-radius: 30px;
+        @include button
     }
 }
 
