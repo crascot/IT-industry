@@ -1,0 +1,37 @@
+@import "../variables";
+
+.project {
+    background-color: #F6F6F8;
+    padding: 100px 0 130px 0;
+    text-align: center;
+
+    h1 {
+        color: $dark;
+        font-weight: bold;
+        font-size: 36px;
+        margin: 0 0 50px 0;
+    }
+    p {
+        color: $gray;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 730px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .project__block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 70px 0 50px 0;
+        max-width: 1110px;
+        width: 100%;
+    }
+
+    button {
+        @include button;
+        margin: 0 auto;
+    }
+}
