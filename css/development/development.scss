@@ -1,0 +1,70 @@
+@import "../variables";
+
+.development {
+    background-color: #F6F6F8;
+
+    .development__top {
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 100px 0 90px 0;
+        border-bottom: 1px solid #E0E0E0;
+
+        .development__top__text {
+            max-width: 489px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            h1 {
+                color: $black;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 53px;
+                margin: 0 0 40px 0;
+            }
+            p {
+                color: $gray;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 25px;
+                margin: 0 0 30px 0;
+            }
+            a {
+                font-weight: 500;
+                font-size: 16px;
+                margin: 0;
+            }
+        }
+
+        .development__top__img img {
+            width: 500px;
+            height: 400px;
+        }
+    }
+
+    .development__bottom {
+        padding: 70px 0;
+        max-width: 1020px;
+        width: 100%;
+        margin: 0 auto;
+        
+        .development__bottom__block {
+            display: flex;
+            flex-wrap: wrap;
+
+            h1 {
+                color: $dark;
+                font-weight: normal;
+                font-size: 36px;
+                margin: 0 0 0 20px;
+                transform: translateY(-6px);
+            }
+            p {
+                color: $gray;
+                font-weight: normal;
+                font-size: 16px;
+            }
+        }
+    }
+}
