@@ -35,3 +35,12 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width: 992px) {
+    .project__block img {
+        padding-bottom: 20px;
+        margin: 0 auto;
+        max-width: 255px;
+        height: 255px;
+    }
+}
