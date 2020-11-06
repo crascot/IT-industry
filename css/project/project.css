@@ -1,0 +1,41 @@
+.project {
+  background-color: #F6F6F8;
+  padding: 100px 0 130px 0;
+  text-align: center; }
+  .project h1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0 0 50px 0; }
+  .project p {
+    color: #999999;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 730px;
+    width: 100%;
+    margin: 0 auto; }
+  .project .project__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 70px 0 50px 0;
+    max-width: 1110px;
+    width: 100%; }
+  .project button {
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    margin: 0 auto; }
+
+@media (max-width: 992px) {
+  .project__block img {
+    padding-bottom: 20px;
+    margin: 0 auto;
+    max-width: 255px;
+    height: 255px; } }
