@@ -5,6 +5,7 @@
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(../../image/bg-header.png);
   background-position: center;
   padding-top: 70px;
+  margin-bottom: 183px;
   height: 570px; }
   .video .video__header {
     text-align: center;
@@ -20,7 +21,6 @@
   .video .video__bottom {
     max-width: 1110px;
     padding-bottom: 85px;
-    margin-bottom: 85px;
     border-bottom: 1px solid #E0E0E0; }
     .video .video__bottom .bottom__block {
       border-radius: 10px;
