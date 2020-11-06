@@ -1,0 +1,50 @@
+@import "../variables";
+
+.subscribe {
+    padding: 85px 0;
+}
+.subscribe__block {
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 0 20px 0;
+
+    h1 {
+        color: $dark;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    p {
+        color: $gray;
+        font-weight: normal;
+        font-size: 16px;
+        margin: 0 0 30px 0;
+    }
+
+    .block__input {
+        border: 1px solid #F2F2F2;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+        border-radius: 30px;
+        max-width: 489px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 0 23px;
+        margin: 0 auto;
+    
+        input {
+            outline: none;
+            border: none;
+            margin-right: 71px;
+        }
+        button {
+            border-radius: 0 30px 30px 0;
+            padding: 15px 36px 15px 26px;
+        }
+    }
+
+    .subscribe__bottom__text {
+        font-size: 13px;
+        margin: 35px 0 0 0;
+    }
+}
