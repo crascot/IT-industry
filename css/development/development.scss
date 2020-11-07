@@ -69,3 +69,32 @@
         }
     }
 }
+
+@media (max-width: $lg) and (min-width: $sm) {
+    .development .development__top .development__top__text {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: $md) {
+    .development .development__bottom .development__bottom__block {
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .development .development__bottom .development__bottom__block p {
+        width: 100%;
+    }
+}
+
+@media (max-width: $sm) {
+    .development .development__top .development__top__img {
+        display: none;
+    }
+    .development .development__top .development__top__text {
+        text-align: center;
+
+        a {
+            margin: 0 auto;
+        }
+    }
+}

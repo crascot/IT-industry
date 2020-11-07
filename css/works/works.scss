@@ -62,14 +62,14 @@
     }
 }
 
-@media (max-width: 993px) {
+@media (max-width: $lg0) {
     .works .works__header {
         height: 390px;
         margin-bottom: -100px;
     }
 }
 
-@media (max-width: 799px) {
+@media (max-width: $lg2) {
     .works .works__header {
         margin-bottom: -50px;
     }
@@ -82,7 +82,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $md) {
     .works__block div {
         padding-bottom: 40px;
         display: flex;
@@ -95,7 +95,7 @@
     }
 }
 
-@media (max-width: 547px) {
+@media (max-width: $sm2) {
     .works .works__header {
         margin-bottom: 0;
     }

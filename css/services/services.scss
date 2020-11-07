@@ -83,18 +83,17 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: $xl) {
     .services .services__footer .services__block {
         margin: 0 auto;
         margin-bottom: 30px;
     }
     .services .services__footer .services__button {
         margin: 0 auto;
-        padding: 0;
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: $sm3) {
     .services .services__block {
         
         .block__icon {

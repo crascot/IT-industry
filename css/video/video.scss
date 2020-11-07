@@ -63,13 +63,13 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: $sm) {
     .video__bottom .bottom__block {
         padding: 0 20px;
     }
 }
 
-@media (max-width: 379px) {
+@media (max-width: $sm5) {
     .video .video__bottom .bottom__block .block__button {
         padding: 5px 25px;
 
@@ -79,7 +79,7 @@
     }
 }
 
-@media (max-width: 329px) {
+@media (max-width: $sm6) {
     .video {
         margin-bottom: 230px;
     }
