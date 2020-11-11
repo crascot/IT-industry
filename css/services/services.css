@@ -74,3 +74,18 @@
     height: 45px;
     border-radius: 30px;
     margin: 0 auto; }
+
+@media (max-width: 1200px) {
+  .services .services__footer .services__block {
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .services .services__footer .services__button {
+    margin: 0 auto; } }
+
+@media (max-width: 412px) {
+  .services .services__block .block__icon {
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .services .services__block .block__text {
+    margin: 0 auto;
+    text-align: center; } }

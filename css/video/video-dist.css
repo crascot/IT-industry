@@ -64,3 +64,7 @@
     padding: 5px 25px; }
     .video .video__bottom .bottom__block .block__button p {
       text-align: center; } }
+
+@media (max-width: 329px) {
+  .video {
+    margin-bottom: 230px; } }
